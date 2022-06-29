@@ -1,5 +1,6 @@
 [requires]
 rapidxml/1.13
+rapidjson/cci.20211112
 
 [generators]
 cmake
