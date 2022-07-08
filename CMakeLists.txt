@@ -9,6 +9,6 @@ include(${CMAKE_BINARY_DIR}/conanbuildinfo.cmake)
 conan_basic_setup(TARGETS)
 
 add_executable(${PROJECT_NAME} main.cpp)
-target_link_libraries(${PROJECT_NAME} CONAN_PKG::rapidxml)
+target_link_libraries(${PROJECT_NAME} CONAN_PKG::rapidxml CONAN_PKG::rapidjson CONAN_PKG::nlohmann_json)
 
 
