@@ -1,1 +1,6 @@
 == This is dummy asciidoc document ==
+:stem: latexmath
+
+=== Writing math formulas ===
+
+you can easily writle formula like this stem:[e^{i\pi} +1 = 0]
